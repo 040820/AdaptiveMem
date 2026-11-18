@@ -1,0 +1,50 @@
+{
+  "sample": "conv-26",
+  "questions": 199,
+  "predictions": 199,
+  "error_rows": 60,
+  "no_information_rows": 1,
+  "nonempty_support_rows": 135,
+  "embedding_shapes": {
+    "embeddings": [
+      458,
+      1024
+    ],
+    "topic": [
+      326,
+      1024
+    ],
+    "question_embeddings": [
+      199,
+      1024
+    ]
+  },
+  "category_metrics": {
+    "1": {
+      "n": 32,
+      "metric": "token_f1",
+      "score": 0.2435790679908327
+    },
+    "2": {
+      "n": 37,
+      "metric": "token_f1",
+      "score": 0.07496782496782495
+    },
+    "3": {
+      "n": 13,
+      "metric": "token_f1",
+      "score": 0.23070818070818072
+    },
+    "4": {
+      "n": 70,
+      "metric": "token_f1",
+      "score": 0.331119632797084
+    },
+    "5": {
+      "n": 47,
+      "metric": "not_mentioned_match",
+      "score": 0.19148936170212766
+    }
+  },
+  "non_adversarial_token_f1": 0.24174947595077897
+}
